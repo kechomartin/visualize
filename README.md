@@ -1,2 +1,2 @@
-# technek
+# artgalleryme 
 Art selling shop .
