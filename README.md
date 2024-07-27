@@ -1,2 +1,2 @@
 # artgalleryme 
-Art selling shop .
+Art display shop .
