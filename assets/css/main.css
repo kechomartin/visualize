@@ -2613,17 +2613,20 @@
 			}
 
 		}
+		
 		/* body {
 			font-family: Arial, sans-serif;
+			background-color: #f0f0f0; /* Light grey background for the body */
 		} */
 		
 		.contact-form-container {
 			width: 300px;
 			margin: auto;
 			padding: 20px;
-			border: 1px solid #ccc;
+			border: 1px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
 			border-radius: 5px;
-			background-color: #f9f9f9;
+			background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 		}
 		
 		.contact-form-container h2 {
@@ -2641,8 +2644,9 @@
 			width: 100%;
 			padding: 10px;
 			margin-bottom: 10px;
-			border: 1px solid #ccc;
+			border: 1px solid rgba(200, 200, 200, 0.7); /* Semi-transparent border */
 			border-radius: 4px;
+			background-color: rgba(255, 255, 255, 1); /* Solid white background for inputs */
 		}
 		
 		.contact-form-container input[type=submit] {
