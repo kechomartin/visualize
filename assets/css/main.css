@@ -2616,8 +2616,8 @@
 		
 		/* body {
 			font-family: Arial, sans-serif;
-			background-color: #f0f0f0; /* Light grey background for the body */
-		} */
+			background-color: #f0f0f0;  Light grey background for the body
+		}  */
 		
 		.contact-form-container {
 			width: 300px;
@@ -2644,9 +2644,9 @@
 			width: 100%;
 			padding: 10px;
 			margin-bottom: 10px;
-			border: 1px solid rgba(200, 200, 200, 0.7); /* Semi-transparent border */
+			border: 5px solid rgba(200, 200, 200, 0.7); /* Semi-transparent border */
 			border-radius: 4px;
-			background-color: rgba(255, 255, 255, 1); /* Solid white background for inputs */
+			background-color: rgb(163, 106, 196); /* Solid white background for inputs */
 		}
 		
 		.contact-form-container input[type=submit] {
