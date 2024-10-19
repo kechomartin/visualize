@@ -47,3 +47,18 @@ $(function() {
 		});
 
 });
+
+(function() {
+	emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+})();
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+	event.preventDefault(); // Prevent default form submission
+
+	emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this) // Replace with your service and template IDs
+		.then(() => {
+			alert('Message sent successfully!');
+		}, (error) => {
+			alert('Failed to send message: ' + JSON.stringify(error));
+		});
+});

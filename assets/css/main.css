@@ -2613,6 +2613,54 @@
 			}
 
 		}
+		/* body {
+			font-family: Arial, sans-serif;
+		} */
+		
+		.contact-form-container {
+			width: 300px;
+			margin: auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			background-color: #f9f9f9;
+		}
+		
+		.contact-form-container h2 {
+			text-align: center;
+		}
+		
+		.contact-form-container label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		
+		.contact-form-container input[type=text],
+		.contact-form-container input[type=email],
+		.contact-form-container textarea {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+		}
+		
+		.contact-form-container input[type=submit] {
+			background-color: #4CAF50; /* Green */
+			color: white;
+			padding: 10px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		
+		.contact-form-container input[type=submit]:hover {
+			background-color: #45a049; /* Darker green */
+		}
+
+
+
+
 .qr{
 	display: flex; 
 	flex-direction: row; 
