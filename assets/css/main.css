@@ -2644,13 +2644,13 @@
 			width: 100%;
 			padding: 10px;
 			margin-bottom: 10px;
-			border: 5px solid rgba(200, 200, 200, 0.7); /* Semi-transparent border */
+			border: 2px solid rgba(200, 200, 200, 0.7); /* Semi-transparent border */
 			border-radius: 4px;
-			background-color: rgb(163, 106, 196); /* Solid white background for inputs */
+			background-color: rgb(172, 161, 179); /* Solid white background for inputs */
 		}
 		
 		.contact-form-container input[type=submit] {
-			background-color: #4CAF50; /* Green */
+			background-color: rgb(172, 161, 179);
 			color: white;
 			padding: 10px;
 			border: none;
@@ -2659,7 +2659,7 @@
 		}
 		
 		.contact-form-container input[type=submit]:hover {
-			background-color: #45a049; /* Darker green */
+			background-color: #969597; 
 		}
 
 
