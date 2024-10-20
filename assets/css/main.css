@@ -2660,6 +2660,7 @@
 		
 		.contact-form-container input[type=submit]:hover {
 			background-color: #969597; 
+			align-items: center;
 		}
 
 
