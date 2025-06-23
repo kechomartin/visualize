@@ -2669,12 +2669,35 @@
 
 
 
-.qr{
-	display: flex; 
-	flex-direction: row; 
-	align-items: center; 
-	justify-content: center;
-}
+.whatsapp-chat {
+      position: relative;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 14px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+
+    .whatsapp-chat:hover {
+      background-color: #1ebd5a;
+    }
+
+    .whatsapp-icon {
+      width: 20px;
+      height: 20px;
+    }
+
 /* Footer */
 
 	.copyright {
