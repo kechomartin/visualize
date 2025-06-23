@@ -65,7 +65,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 // whatsapp button 
     function openWhatsApp() {
       const phoneNumber = "254748905258"; // Replace with your number (no + or spaces)
-      const message = encodeURIComponent("Hello, I saw your portfolio and would like to get in touch!");
+      const message = encodeURIComponent("Feel free to say hello!");
       const url = `https://wa.me/${phoneNumber}?text=${message}`;
       window.open(url, 'https://www.whatsapp.com/');
     }
