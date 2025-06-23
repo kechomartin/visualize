@@ -59,6 +59,14 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 		.then(() => {
 			alert('Message sent successfully!');
 		}, (error) => {
-			alert('Failed to send message: ' + JSON.stringify(error));
+			alert('Failed tso send message: ' + JSON.stringify(error));
 		});
 });
+// whatsapp button 
+    function openWhatsApp() {
+      const phoneNumber = "254748905258"; // Replace with your number (no + or spaces)
+      const message = encodeURIComponent("Hello, I saw your portfolio and would like to get in touch!");
+      const url = `https://wa.me/${phoneNumber}?text=${message}`;
+      window.open(url, 'https://www.whatsapp.com/');
+    }
+ 
